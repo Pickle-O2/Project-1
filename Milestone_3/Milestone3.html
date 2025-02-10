@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title>Project 1 (Milestone 3)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mycss_web.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="mycss_tablet.css" media="screen and (max-width: 767px)">
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <label>Search: </label>
+        <input name="q" type="text"/>
+        <input type="submit">
+    </form>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Information">Basic Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Education">Education Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Work">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Programming">Programming Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Interests">General Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Favorites">Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Websites">Favorite Websites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">My Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4" id="Information">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://external-preview.redd.it/4W2cpTDy65r8VeCgI9-39ZFUQb8PKasBEKgo_13aEL4.jpg?auto=webp&s=fa6c3382082146358587d7214169c8fc1b2ae49e" class="img-fluid rounded" alt="Profile Picture">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-4">Basic Information</h1>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Major</th>
+                            <th>Minor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dillon Chen</td>
+                            <td>Cyber Security</td>
+                            <td>Undecided</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4" id="Education">
+        <h2 class="display-5">Education Summary</h2>
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">
+                    Currently, I only have a High School Diploma. I am currently in University attending St. Johns, in hopes of achieving my bachelor's in Cyber Security.
+                    I have no work experience in the field or internships.
+                </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Diploma: High School Diploma</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4" id="Work">
+        <h2 class="display-5">Work Experience</h2>
+        <div class="alert alert-info" role="alert">
+            <strong>Barista</strong> - I have experience working as a barista.
+        </div>
+    </div>
+    <div class="container mt-4" id="Programming">
+        <h2 class="display-5">Programming Skills</h2>
+        <div class="alert alert-info" role="alert">
+        <ol>
+            <li> <b>Java</b> (Fundamentals) </li>
+            <li> <b>Java Script</b> (Fundamentals) </li>
+            <li> <b>Python</b> (Fundamentals) </li>
+            <li> <b>HTML</b> (Fundamentals) </li>
+        </ol>
+    </div>
+    <div class="container mt-4" id="Interests">
+        <h2 class="display-5">General Interests</h2>
+        <div class="alert alert-info" role="alert">
+        <p>I like playing video games, and going out with friends doing activities such as hiking. Music is also something I enjoy quite a lot.</p>
+        <img src="https://raw.githubusercontent.com/Pickle-O2/Project-1/main/GamingIMG.jpg" width="20%">
+    </div>
+    <div class="container mt-4" id="Favorites">
+        <h2 class="display-5">Favorite song, film, and TV show section</h2>
+        <div class="alert alert-info" role="alert">
+        <ul>
+            <li>I don't have a favorite song in particular, but I like the artist Don Toliver.</li>
+            <li>Favorite Film:</li>
+            <iframe width="320" height="180" 
+                src="https://www.youtube.com/embed/SR__amDl1c8" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>           
+            <li>Discovery Channel is my favorite TV show section.</li>
+        </ul>
+    </div>
+    <div class="container mt-4" id="Websites">
+        <h2 class="display-5">Favorite Websites</h2>
+        <div class="d-grid gap-2">
+            <a href="https://www.youtube.com" class="btn btn-primary">YouTube</a>
+            <a href="https://www.tiktok.com" class="btn btn-secondary">TikTok</a>
+        </div>
+    </div>
+    <div id="Projects">
+        <h1> <span style="color:black;">My Projects</span> </h1>
+        <p>Implementing and Deploying a Profile Page</p>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/Pickle-O2/Project-1">Project 1</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
